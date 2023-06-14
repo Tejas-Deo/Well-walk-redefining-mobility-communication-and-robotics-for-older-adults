@@ -57,11 +57,11 @@ alexa echo dot and the Node MCU are as follows: -
 <table>
   <tr>
     <td>
-      <img src="/Readme_images/ui_microcontroller_communication.png" alt="Trajectories" width="100%">
+      <img src="/Readme_images/new_webapp_microcontroller_communication_diagram.png" alt="Trajectories" width="100%">
       <p align="center">Communication between Web Application and Node MCUs</p>
     </td>
     <td>
-      <img src="/Readme_images/voice_microcontroller_comunication.png" alt="Schematic" width="100%">
+      <img src="/Readme_images/new_voice_microcontroller_communication_diagram.png" alt="Schematic" width="100%">
       <p align="center">Communication between echo dot and Node MCUs</p>
     </td>
   </tr>
