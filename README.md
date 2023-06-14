@@ -136,3 +136,8 @@ final_secondary_esp.ino
 Primary_ESP.ino
 Secodnary_ESP.ino
 ```
+
+
+## Notes
+1. To use the WebApplication for the odler adults as well as the caregivers please used the `WebApp` branch
+2. `voice_recognition_code.py` script us for running custom voice recognition model directly on the Pi using the Google Assistant API (this file is not used in the final project)
