@@ -125,3 +125,14 @@ $ python charging_status.py
 ```
 
 ## Working of Node MCUs
+1. For pre-defined direction of Charging dock, flash the following files into Primary and Secondary Node MCU respectively
+```bash
+final_primary_esp.ino
+final_secondary_esp.ino
+```
+
+2. To use the complete functionality of the IR sensors, flash the following files into Primary and Secondary Node MCU respectively
+```bash
+Primary_ESP.ino
+Secodnary_ESP.ino
+```
