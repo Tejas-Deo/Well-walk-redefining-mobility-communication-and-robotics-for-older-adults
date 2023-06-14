@@ -1,0 +1,305 @@
+<!DOCTYPE html><!--  Last Published: Mon Jun 05 2023 20:45:52 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="646dcb0c5e490b93f18ffd67" data-wf-site="646dcb0c5e490b93f18ffd76">
+<head>
+  <meta charset="utf-8">
+  <title>About</title>
+  <meta content="About" property="og:title">
+  <meta content="About" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/avatarui2.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Mulish:regular,500,600,700,800,900,200italic,italic,500italic,600italic,700italic,800italic,900italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+  <script src="js/interactions.js" type="text/javascript"></script> 
+  <script src="js/paho-mqtt.js" type="text/javascript"></script> 
+</head>
+<body class="body" onload="startConnect()">
+  <div class="section">
+    <div class="columns-2 w-row">
+      <div class="column w-col w-col-7">
+        <div class="div-block-5">
+          <h1 class="heading">My Contacts</h1>
+          <div class="link-blocks">
+            <div data-w-id="4fc22d88-86df-a0c3-9c34-c070a1bbc99b" class="div-block-6 _15">
+              <a href="https://stanford.zoom.us/j/97244029643?pwd=YTBabkR6QWdPZU5VSGYvUUVhT2dWQT09" target="_blank" class="link-block-2 w-inline-block"><img src="images/don-no-active.png" loading="lazy" sizes="(max-width: 767px) 100vw, 90px" srcset="images/don-no-active-p-500.png 500w, images/don-no-active-p-800.png 800w, images/don-no-active.png 1587w" alt="" class="image-3 rounded">
+                <div class="small-contact">
+                  <div class="big-name-button">Don</div>
+                  <div class="small-name-button">active</div>
+                </div>
+              </a>
+            </div>
+            <div data-w-id="1673051d-906e-1a33-fb72-2cad7ffd999d" class="div-block-6 _15">
+              <a href="https://stanford.zoom.us/j/97244029643?pwd=YTBabkR6QWdPZU5VSGYvUUVhT2dWQT09" target="_blank" class="link-block-2 w-inline-block"><img src="images/frank-no-active.png" loading="lazy" sizes="(max-width: 767px) 100vw, 90px" srcset="images/frank-no-active-p-500.png 500w, images/frank-no-active.png 602w" alt="" class="image-3 rounded">
+                <div class="small-contact">
+                  <div class="big-name-button">Frank</div>
+                  <div class="small-name-button">inactive</div>
+                </div>
+              </a>
+            </div>
+            <div data-w-id="23d1e954-2cfa-f564-55fa-1f6ad0eda739" class="div-block-6 _15">
+              <a href="https://stanford.zoom.us/j/97244029643?pwd=YTBabkR6QWdPZU5VSGYvUUVhT2dWQT09" target="_blank" class="link-block-2 w-inline-block"><img src="images/maddy-no-active.png" loading="lazy" sizes="(max-width: 767px) 100vw, 90px" srcset="images/maddy-no-active-p-500.png 500w, images/maddy-no-active.png 602w" alt="" class="image-3">
+                <div class="small-contact">
+                  <div class="big-name-button">Maddy</div>
+                  <div class="small-name-button">inactive</div>
+                </div>
+              </a>
+            </div>
+            <div data-w-id="cdff19bf-6249-5623-0a66-a9a7f701d362" class="div-block-6 _15">
+              <a href="https://stanford.zoom.us/j/97244029643?pwd=YTBabkR6QWdPZU5VSGYvUUVhT2dWQT09" target="_blank" class="link-block-2 w-inline-block"><img src="images/hunter-no-active.png" loading="lazy" sizes="(max-width: 767px) 100vw, 90px" srcset="images/hunter-no-active-p-500.png 500w, images/hunter-no-active.png 602w" alt="" class="image-3">
+                <div class="small-contact">
+                  <div class="big-name-button">Hunter</div>
+                  <div class="small-name-button">active</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="phone-blocks">
+            <div data-w-id="c7bc2020-866a-9782-7822-174e3eab05a6" class="div-block-6 _15">
+              <a href="tel:4154040038" class="link-block-2 phone w-inline-block"><img src="images/don-no-active.png" loading="lazy" sizes="(max-width: 479px) 55px, (max-width: 767px) 70px, 100vw" srcset="images/don-no-active-p-500.png 500w, images/don-no-active-p-800.png 800w, images/don-no-active.png 1587w" alt="" class="image-3 rounded">
+                <div class="small-contact">
+                  <div class="big-name-button">Don</div>
+                  <div class="small-name-button">active</div>
+                </div>
+              </a>
+            </div>
+            <div data-w-id="c7bc2020-866a-9782-7822-174e3eab05ae" class="div-block-6 _15">
+              <a href="tel:4154040038" class="link-block-2 phone w-inline-block"><img src="images/frank-no-active.png" loading="lazy" sizes="(max-width: 479px) 55px, (max-width: 767px) 70px, 100vw" srcset="images/frank-no-active-p-500.png 500w, images/frank-no-active.png 602w" alt="" class="image-3 rounded">
+                <div class="small-contact">
+                  <div class="big-name-button">Frank</div>
+                  <div class="small-name-button">inactive</div>
+                </div>
+              </a>
+            </div>
+            <div data-w-id="c7bc2020-866a-9782-7822-174e3eab05b6" class="div-block-6 _15">
+              <a href="tel:4154040038" class="link-block-2 phone w-inline-block"><img src="images/maddy-no-active.png" loading="lazy" sizes="(max-width: 479px) 55px, (max-width: 767px) 70px, 100vw" srcset="images/maddy-no-active-p-500.png 500w, images/maddy-no-active.png 602w" alt="" class="image-3">
+                <div class="small-contact">
+                  <div class="big-name-button">Maddy</div>
+                  <div class="small-name-button">inactive</div>
+                </div>
+              </a>
+            </div>
+            <div data-w-id="c7bc2020-866a-9782-7822-174e3eab05be" class="div-block-6 _15">
+              <a href="tel:4154040038" class="link-block-2 phone w-inline-block"><img src="images/hunter-no-active.png" loading="lazy" sizes="(max-width: 479px) 55px, (max-width: 767px) 70px, 100vw" srcset="images/hunter-no-active-p-500.png 500w, images/hunter-no-active.png 602w" alt="" class="image-3">
+                <div class="small-contact">
+                  <div class="big-name-button">Hunter</div>
+                  <div class="small-name-button">active</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="div-block-9">
+          <div data-w-id="965562ee-aed7-fa11-3e9c-f46f8066dee5" class="div-block-6 brown _15">
+            <a href="#" class="link-block-2 extra w-inline-block"><img src="images/add-user.png" loading="lazy" sizes="(max-width: 479px) 30px, (max-width: 767px) 40px, 45px" srcset="images/add-user-p-500.png 500w, images/add-user.png 512w" alt="" class="image-3 big-button">
+              <div class="big-name-button">Add Contacts</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="column-2 w-col w-col-5">
+        <div class="clock big">
+          <div class="html-embed-3 w-embed w-script">
+            <div id="clock"></div>
+            <script>
+  window.days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        window.months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];        function nthFormatter(d) {
+            if (d > 3 && d < 21) return 'th';
+            switch (d % 10) {
+                case 1: return "st";
+                case 2: return "nd";
+                case 3: return "rd";
+                default: return "th";
+            }
+        }
+        function currentTime1() {
+            var date = new Date();
+            var hour = date.getHours();
+            var disp_hour = hour;
+            if (hour > 12) {
+            		disp_hour = hour - 12;
+            }	else if (hour == 0) {
+            		disp_hour = 12;
+            }
+            var min = date.getMinutes();
+            if (min < 10)
+                min = "0" + min;
+            var ampm = hour >= 12 ? 'pm' : 'am';
+            var dayOfWeek = window.days[date.getDay()];
+            var month = window.months[date.getMonth()];
+            var day = date.getDate();
+            document.getElementById("clock").innerText = disp_hour + ':' + min + ampm;
+            /* setting timer to every 15 seconds */
+            var t = setTimeout(function () { currentTime() }, 15000); 
+        }
+        currentTime1();
+</script>
+          </div>
+        </div>
+        <div class="clock1 big">
+          <div class="html-embed-2 w-embed w-script">
+            <div id="clock1"></div>
+            <script>
+  window.days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        window.months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];        function nthFormatter(d) {
+            if (d > 3 && d < 21) return 'th';
+            switch (d % 10) {
+                case 1: return "st";
+                case 2: return "nd";
+                case 3: return "rd";
+                default: return "th";
+            }
+        }
+        function currentTime2() {
+            var date = new Date();
+            var hour = date.getHours();
+            var min = date.getMinutes();
+            if (min < 10)
+                min = "0" + min;
+            var ampm = hour >= 12 ? 'pm' : 'am';
+            var dayOfWeek = window.days[date.getDay()];
+            var month = window.months[date.getMonth()];
+            var day = date.getDate();
+            document.getElementById("clock1").innerText = dayOfWeek + ', ' + month + ' ' + day;
+            /* setting timer to every 15 seconds */
+            var t = setTimeout(function () { currentTime() }, 15000); 
+        }
+        currentTime2();
+</script>
+          </div>
+        </div>
+        <div class="div-block-7 _40 inner-10">
+          <div class="battery-1 older">
+            <div id="batterypercentageblock" class="battery-percentage bat-1 older"></div><img src="images/battery-outline.png" loading="lazy" sizes="(max-width: 479px) 80px, (max-width: 767px) 117px, 175px" srcset="images/battery-outline-p-500.png 500w, images/battery-outline.png 756w" alt="">
+          </div>
+          <div class="div-block-8 _40">
+            <div id="batterypercentagetext" class="text-block-3 med">15% Charged</div> 
+          </div>
+        </div>
+        <div class="div-block-7 _40 _30">
+          <h1 class="heading">My Walker</h1>
+          <div data-w-id="b261af85-07e3-d264-16f5-9b8cfab21077" class="div-block-6 _15">
+            <a href="#" class="link-block-2 extra w-inline-block"><img src="images/controller.png" loading="lazy" sizes="(max-width: 479px) 30px, (max-width: 767px) 40px, 45px" srcset="images/controller-p-500.png 500w, images/controller.png 512w" alt="" class="image-3 big-button">
+              <div>
+                <div class="big-name-button">Drive</div>
+              </div>
+            </a>
+          </div>
+          <div class="div-block-6 _15">
+            <a href="#" class="link-block-2 w-inline-block" onclick="toCharger()"><img src="images/energy.png" loading="lazy" alt="" class="image-3 big-button">
+              <div class="big-name-button">Go to Charger</div>
+            </a>
+          </div>
+          <div>
+            <div class="div-block-6 toggle on test">
+              <a id="statusbutton" href="#" class="link-block-2 w-inline-block" onclick="systemOn()"><img src="images/start-button.png" loading="lazy" alt="" class="image-3 big-button">
+                <div id="statebuttontext" class="big-name-button">Walker On</div>
+              </a>
+            </div>
+            <div class="div-block-6 toggle huh">
+              <a id="statusbutton" href="#" class="link-block-2 w-inline-block" onclick="systemOff()"><img src="images/stop-button.png" loading="lazy" alt="" class="image-3 big-button">
+                <div id="statebuttontext" class="big-name-button">Walker Off</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="div-block-9 emergency">
+          <div data-w-id="54031de2-5752-6f37-f4fc-d3a5a88604ba" class="div-block-6 brown _15">
+            <a href="#" class="link-block-2 extra w-inline-block"><img src="images/emergency.png" loading="lazy" sizes="(max-width: 479px) 30px, (max-width: 767px) 40px, 45px" srcset="images/emergency-p-500.png 500w, images/emergency-p-800.png 800w, images/emergency.png 1805w" alt="" class="image-3 big-button big">
+              <div>
+                <div class="big-name-button">Emergency</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <aside style="display:none;opacity:0" class="modal-wrapper drive">
+    <div class="div-block-12">
+      <h1 class="heading">Walker Controls</h1>
+      <div class="w-layout-grid grid">
+        <div></div>
+        <div id="w-node-d548b916-a1d5-5d37-4771-34a8557dee06-f18ffd67" class="div-block-13">
+          <a id="w-node-d548b916-a1d5-5d37-4771-34a8557dee07-f18ffd67" href="#" class="arrow-button w-inline-block" onclick="buttonForward()"><img src="images/up-arrow.png" loading="lazy" sizes="(max-width: 479px) 40px, 70px" srcset="images/up-arrow-p-500.png 500w, images/up-arrow-p-800.png 800w, images/up-arrow-p-1080.png 1080w, images/up-arrow.png 1360w" alt="" class="arrow">
+            <div class="big-name-button">Forward</div>
+          </a>
+        </div>
+        <div></div>
+        <div id="w-node-d548b916-a1d5-5d37-4771-34a8557dee0c-f18ffd67" class="div-block-13">
+          <a id="w-node-d548b916-a1d5-5d37-4771-34a8557dee0d-f18ffd67" href="#" class="arrow-button w-inline-block" onclick="buttonLeft()"><img src="images/leftcurve.png" loading="lazy" sizes="(max-width: 479px) 39.8203125px, (max-width: 991px) 69.6875px, 69.9921875px" srcset="images/leftcurve-p-500.png 500w, images/leftcurve.png 683w" alt="" class="arrow left">
+            <div class="big-name-button">Left</div>
+          </a>
+        </div>
+        <div></div>
+        <div id="w-node-d548b916-a1d5-5d37-4771-34a8557dee12-f18ffd67" class="div-block-13">
+          <a id="w-node-d548b916-a1d5-5d37-4771-34a8557dee13-f18ffd67" href="#" class="arrow-button w-inline-block" onclick="buttonRight()"><img src="images/rightcurve.png" loading="lazy" sizes="(max-width: 479px) 39.8203125px, (max-width: 991px) 69.6875px, 69.9921875px" srcset="images/rightcurve-p-500.png 500w, images/rightcurve.png 683w" alt="" class="arrow right">
+            <div class="big-name-button">Right</div>
+          </a>
+        </div>
+        <div></div>
+        <div id="w-node-d548b916-a1d5-5d37-4771-34a8557dee18-f18ffd67" class="div-block-13">
+          <a id="w-node-d548b916-a1d5-5d37-4771-34a8557dee19-f18ffd67" href="#" class="arrow-button w-inline-block" onclick="buttonBack()"><img src="images/up-arrow.png" loading="lazy" width="113" sizes="(max-width: 479px) 40px, 70px" srcset="images/up-arrow-p-500.png 500w, images/up-arrow-p-800.png 800w, images/up-arrow-p-1080.png 1080w, images/up-arrow.png 1360w" alt="" class="arrow back">
+            <div class="big-name-button">Back</div>
+          </a>
+        </div>
+        <div></div>
+      </div>
+      <div data-w-id="d548b916-a1d5-5d37-4771-34a8557dee1e" class="close-modal-button">
+        <a href="#" class="close w-inline-block"><img src="images/close.png" loading="lazy" alt="" class="image-3 big-button">
+          <div class="big-name-button exit">Close Menu</div>
+        </a>
+      </div>
+    </div>
+  </aside>
+  <aside style="display:none;opacity:0" class="modal-wrapper contact">
+    <div class="div-block-12 contact">
+      <h1 class="heading">Add Contact</h1>
+      <div class="form-block-2 _50 w-form">
+        <form id="wf-form-Add-Contact-Form" name="wf-form-Add-Contact-Form" data-name="Add Contact Form" method="get" class="form" data-wf-flow="646dcb0c5e490b93f18ffd78"><label for="Add-Contact-Name" class="field-label">Name</label><input type="text" class="text-field-2 _50 w-input" maxlength="256" name="Add-Contact-Name" data-name="Add Contact Name" placeholder="" id="Add-Contact-Name" required=""><label for="Add-Contact-Phone" class="field-label">Phone Number</label><input type="tel" class="text-field-2 _50 w-input" maxlength="256" name="Add-Contact-Phone" data-name="Add Contact Phone" placeholder="" id="Add-Contact-Phone" required=""><label for="Alt-Contact" class="field-label alt-contact">Alternative Contact Link</label><input type="text" class="text-field-2 _50 alt-contact w-input" maxlength="256" name="Alt-Contact" data-name="Alt Contact" placeholder="" id="Alt-Contact"><input type="submit" value="Add" data-wait="Please wait..." class="submit-button-3 w-button"></form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+      <div data-w-id="1d3341a8-5372-f8f8-874d-9a202815fe06" class="close-modal-button">
+        <a href="#" class="close w-inline-block"><img src="images/close.png" loading="lazy" alt="" class="image-3 big-button xout">
+          <div class="big-name-button exit">Close Menu</div>
+        </a>
+      </div>
+    </div>
+  </aside>
+  <aside style="display:none;opacity:0" class="modal-wrapper emergency older">
+    <div class="div-block-12 emergency">
+      <h1 class="heading caregiver emerg older">Confirmation</h1>
+      <div class="text-block-5 older">Your contacts have been alerted to your emergency. <br><br>Please stay where you are and wait for assistance, or contact emergency services as needed.<strong></strong></div>
+      <div data-w-id="070a415a-0902-cad7-6551-b90d7db1bd03" class="close-modal-button">
+        <a href="#" class="close caregiver w-inline-block"><img src="images/close.png" loading="lazy" alt="" class="image-3 big-button caregiver">
+          <div class="big-name-button caregiver">Close Menu</div>
+        </a>
+      </div>
+    </div>
+  </aside>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=646dcb0c5e490b93f18ffd76" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script>
+var password = document.getElementById("password");
+var confirm_password = document.getElementById("cpassword");
+function validatePassword() {
+if (password.value != confirm_password.value) { confirm_password.setCustomValidity("Passwords Don't Match");
+} else { confirm_password.setCustomValidity('');
+} };
+password.onchange = validatePassword();
+confirm_password.onkeyup = validatePassword();
+</script>
+</body>
+</html>
