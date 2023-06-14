@@ -88,7 +88,8 @@ The wiring diagram and the workload between the 2 Node MCUs is distributed as fo
 
 ## Working of Raspberry Pi
 Shoot up the Raspberry Pi and open the following terminals to get started
-1. Terminal 1: To start the secure tunnel
+
+1. Terminal 1: To start the secure tunnel. Copy the ngrok subdomain (with "https") and use it as Alexa's endpoint in the amazon developer console to establish communication between echo dot and the raspberry pi.
 ```bash
 $ cd /usr/local/bin
 $ ./ngrok http 5000
