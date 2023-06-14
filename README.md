@@ -90,5 +90,5 @@ Shoot up the Raspberry Pi and open the following terminals to get started
 ```bash
 $ cd /usr/local/bin
 $ ./ngrok http 5000
-
+```
 2. Terminal 2: 
