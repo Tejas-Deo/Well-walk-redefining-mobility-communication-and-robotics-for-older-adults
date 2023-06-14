@@ -33,7 +33,18 @@ This repository demonstrates the working of the semi-autonomous system and the u
 6. Ultrasonic Sensors - TO alculate the distance from the nearest object and in-turn provides obstacle avoidance functionalities
 7. Infrared (IR) Sensors - Transceivers used to determine the direction of movement needed to reach the charging dock, which enables semi-autonomous navigation.
 
-## Working
+
+<table>
+  <tr>
+    <td>
+      <img src="/Readme_images/motors_assembly.png" alt="Trajectories" width="100%">
+      <p align="center">Motors Assembly</p>
+    </td>
+    <td>
+</table> 
+
+
+## System Diagrams
 The user (older adults) can control the walker via the web-application on their tablets or through Alexa Voice Commands (using alexa echo dot). The communication system diagram between the tablet and the Node MCU, and 
 alexa echo dot and the Node MCU are as follows: -
 
@@ -68,4 +79,16 @@ The wiring diagram and the workload between the 2 Node MCUs is distributed as fo
 ## Installation
 1. Clone this repo using `git clone https://github.com/Tejas-Deo/Well-walk-redefining-mobility-communication-and-robotics-for-older-adults.git`
 2. Install all the requirements on the Raspberry Pi using `pip install -r requirements.txt`
-3. 
+3. Install MQTT Mosquitto Broker
+4. Install ngrok secure tunnel
+5. Create account on Amazon Developer Console to develop custom voice interaction skills to control the walker via voice commands
+  
+
+## Working
+Shoot up the Raspberry Pi and open the following terminals to get started
+1. Terminal 1: To start the secure tunnel
+```bash
+$ cd /usr/local/bin
+$ ./ngrok http 5000
+
+2. Terminal 2: 
