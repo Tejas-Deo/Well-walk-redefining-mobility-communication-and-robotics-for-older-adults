@@ -24,4 +24,48 @@ This repository demonstrates the working of the semi-autonomous system and the u
 </table>
 
 
+## Devices
+1. 2 Node MCUs (ESP 8266) - Deployed on the walker to control the motors and sensors (Primary Node MCU and Secondary Node MCU)
+2. Raspberry Pi - Microcontroller used as a gateway to remotely control the walker
+3. DC Motor - Driving Motor for the walker
+4. Servo Motor - Responsible for swiveling the drive mechanism
+5. Stepper Motor - A linear actuator responsible for engaging and disengaging the semi-autonomous system
+6. Ultrasonic Sensors - TO alculate the distance from the nearest object and in-turn provides obstacle avoidance functionalities
+7. Infrared (IR) Sensors - Transceivers used to determine the direction of movement needed to reach the charging dock, which enables semi-autonomous navigation.
+
+## Working
+The user (older adults) can control the walker via the web-application on their tablets or through Alexa Voice Commands (using alexa echo dot). The communication system diagram between the tablet and the Node MCU, and 
+alexa echo dot and the Node MCU are as follows: -
+
+<table>
+  <tr>
+    <td>
+      <img src="/Readme_images/ui_microcontroller_communication.png" alt="Trajectories" width="100%">
+      <p align="center">Communication between Web Application and Node MCUs</p>
+    </td>
+    <td>
+      <img src="/Readme_images/voice_microcontroller_comunication.png" alt="Schematic" width="100%">
+      <p align="center">Communication between echo dot and Node MCUs</p>
+    </td>
+  </tr>
+</table>
+
+
+The wiring diagram and the workload between the 2 Node MCUs is distributed as follows: -
+1. Primary Node MCU - Controls the DC motor, servo motor, and the ultrasonic sensors
+2. Secondary Node MCU - Controls the Stepper motor and the IR sensors
+
+<table>
+  <tr>
+    <td>
+      <img src="/Readme_images/WiringSchematic-1.png" alt="Trajectories" width="100%">
+      <p align="center">Walker WiringDiagram</p>
+    </td>
+    <td>
+</table> 
+
+
 ## Installation
+1. Clone this repo using `git clone https://github.com/Tejas-Deo/Well-walk-redefining-mobility-communication-and-robotics-for-older-adults.git`
+2. Install all the requirements on the Raspberry Pi using `pip install -r requirements.txt`
+3. 
