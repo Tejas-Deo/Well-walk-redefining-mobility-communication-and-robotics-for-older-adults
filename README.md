@@ -36,7 +36,7 @@ This repository demonstrates the working of the semi-autonomous system and the u
 3. DC Motor - Driving Motor for the walker
 4. Servo Motor - Responsible for swiveling the drive mechanism
 5. Stepper Motor - A linear actuator responsible for engaging and disengaging the semi-autonomous system
-6. Ultrasonic Sensors - TO alculate the distance from the nearest object and in-turn provides obstacle avoidance functionalities
+6. Ultrasonic Sensors - To calculate the distance from the nearest object and in-turn provides obstacle avoidance functionalities
 7. Infrared (IR) Sensors - Transceivers used to determine the direction of movement needed to reach the charging dock, which enables semi-autonomous navigation.
 
 
