@@ -4,9 +4,15 @@
 A growing number of the elderly encounter difficulty in performing daily tasks and feel isolated as they become disconnected from friends and family. These problems are exacerbated during times of pandemic when 
 face-to-face visits from caretakers of all kinds are curtailed. Home robots have been proposed to address these problems but are not yet proving effective. Reviewing the available resources in the market reveals that older
 adults’ options are not only limited but in many ways frustrating. Complicated user interfaces, combined with the reluctance of the elderly to embrace new technologies, make for potential solutions that never really
-serve their intended targets. While technology has advanced significantly in recent years, many older adults struggle to adopt new technologies due to complex interfaces and unfamiliar user experiences. The team hypothe-
+serve their intended targets. While technology has advanced significantly in recent years, many older adults struggle to adopt new technologies due to complex interfaces and unfamiliar user experiences. The team hypothe
 sizes that developing familiar technology, such as video conferencing and entertainment, within a simplified user interface integrated into a walker with a semi-autonomous modular kit, will provide benefits to the user 
 and enable greater adoption of new technologies— especially in the years to come.
+
+Well-Walk comprises four subsystems: a device holder, a charging solution, a motorized driving mechanism and its semi-autonomous controls system, and a digital user interface.
+
+The device holder securely transports personal devices with an easy-to-use slide-in attachment module. The charging solution offers hands-free contact charging through its stationary charging device and walker-mounted magnetic prongs. The motorized driving module allows the user to fully control the movement of their walker when not in use so that it is only there when they need it to be. Users can access both semi-autonomy and live directional control options through voice commands or the user interface. Lastly, the digital user interface integrates with the walker to provide navigational controls and battery status information. The UI also provides updates on each contact’s activity to allow the user to feel confident about reaching out, plus standard call and remote screen control options for efficient communication and technical assistance.
+
+The development of Well-Walk serves as a baseline for an approach to employ robotic technologies through the familiar, convenient framework that is the walker. Moving forward, there are a plethora of bountiful technologies that can continue to be explored and employed through Well-Walk, enabling older adult individuals to the convenience of robotics and technologies that everyone deserves.
 
 This repository demonstrates the working of the semi-autonomous system and the user interface.
 
