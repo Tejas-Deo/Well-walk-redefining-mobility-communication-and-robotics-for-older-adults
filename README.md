@@ -80,15 +80,48 @@ The wiring diagram and the workload between the 2 Node MCUs is distributed as fo
 1. Clone this repo using `git clone https://github.com/Tejas-Deo/Well-walk-redefining-mobility-communication-and-robotics-for-older-adults.git`
 2. Install all the requirements on the Raspberry Pi using `pip install -r requirements.txt`
 3. Install MQTT Mosquitto Broker
-4. Install ngrok secure tunnel
-5. Create account on Amazon Developer Console to develop custom voice interaction skills to control the walker via voice commands
+4. Install WebSockets
+5. Adapt the `mosquitto.conf` file to receive commands via 2 ports; Port 1883 - MQTT, Port 9001 - WebSockets
+6. Install ngrok secure tunnel
+7. Create account on Amazon Developer Console to develop custom voice interaction skills to control the walker via voice commands
   
 
-## Working
+## Working of Raspberry Pi
 Shoot up the Raspberry Pi and open the following terminals to get started
 1. Terminal 1: To start the secure tunnel
 ```bash
 $ cd /usr/local/bin
 $ ./ngrok http 5000
 ```
-2. Terminal 2: 
+
+2. Terminal 2: Check MQTT mosquitto broker status; make sure that the status is active
+```bash
+$ cd /etc/mosquitto/mosquitto.conf
+$ sudo systemctl status mosquitto
+```
+
+3. Terminal 3: To check the IP address of the Raspberry Pi. Use this IP address whereever there is a variable called `mqtt_broker_address=replace_with_yours`
+```bash
+$ sudo ifconfig
+```
+Copy the inet address under wlan
+
+4. Terminal 4: To start the Alexa Voice Commands script
+```bash
+$ cd /path/to/your/file
+$ python alexa_rasp_code.py
+```
+
+5. Terminal 5: To start the UI commands script
+```bash
+$ cd /path/to/your/file
+$ python new_UI_commands.py
+```
+
+6. Terminal 6: To send the charging status to the Web-Application
+```bash
+$ cd cd /path/to/your/file
+$ python charging_status.py
+```
+
+## Working of Node MCUs
